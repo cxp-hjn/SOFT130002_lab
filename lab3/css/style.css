@@ -1,0 +1,56 @@
+body{
+    font-family: "Californian FB","Blackadder ITC","Arial Rounded MT Bold";
+    background-color: #1b2838;
+    color: #acb2b8
+}
+header {
+    color: #b8b6b4;
+    height: 10%;
+    background-color: #171a21;
+    display: flex;
+    text-align: center;
+}
+header a{
+    margin: auto 3em;
+    text-decoration: none;
+}
+header a:hover{
+    color: red;
+    cursor: pointer;
+}
+h1{
+    margin-left: 3em;
+    margin-top: 1em;
+}
+section{
+    margin-top: 1em;
+    margin-left: 3em;
+}
+select {
+    background-color: #171a21;
+    border: #56707f solid 1px;
+    color: #acb2b8
+}
+p{
+    margin-top: 2em;
+}
+input,textarea{
+    background-color: #171a21;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #acb2b8
+}
+input[type="text"],input[type="password"]{
+    background-color: black;
+    height: 2em;
+    width: 20%;
+}
+select,input[type="checkbox"],textarea{
+    background-color: black;
+}
+input[type="button"],input[type="submit"]{
+    background-color: #56707f;
+    border: #171a21 solid 1px;
+    width: 4em;
+    height:2.3em;
+}

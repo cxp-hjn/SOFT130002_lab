@@ -1,0 +1,111 @@
+body{
+    font-family: "Californian FB","Blackadder ITC","Arial Rounded MT Bold";
+    background-color: #1b2838;
+    color: #acb2b8
+}
+header{
+    height: 3em;
+    background-color: #171a21;
+}
+nav {
+    margin: auto 4em;
+}
+
+li {
+    display: inline-block;
+}
+
+nav li {
+    padding: 1em 1em;
+}
+nav li a {
+    color: #b8b6b4;
+}
+a{
+    color: #acb2b8;
+    text-decoration: none;
+}
+.title, h2 {
+    color: #ebebeb;
+}
+
+.title {
+    margin: 1em 5%;
+    display: inline;
+    display: flex;
+    text-align: center;
+}
+
+.title img {
+    border: #b8b6b4 solid 2px;
+}
+
+.title div {
+    display: inline;
+    padding-left: 1em;
+    margin: auto 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.title span {
+    font-weight: normal;
+    font-size: small;
+}
+
+.title .symbol {
+    color: #b8b6b4;
+    font-size: large;
+} .answer li{
+    display: inline-block;
+    width: 3em;
+    height: 2em;
+}
+aside {
+    float:right;
+    margin: 1% 5%;
+    width: 30%;
+    background-color: #171a21;
+}
+
+aside a {
+    color: white;
+}
+
+aside img, aside ul {
+    padding: 0;
+    width: 100%;
+}
+
+aside li {
+    display: block;
+    text-align: center;
+    padding: 0.2em 0;
+}
+section blockquote {
+    margin-left: 5em;
+    width: 50%;
+    font-size: small;
+    background-color: #171a21;
+    padding: 0.7em;
+    color: #b8b6b4;
+    border-top: 1px solid rgba(85, 125, 171, 0.6)
+}
+section h2,h3{
+    padding-left: 4em;
+    padding-top: 1em;
+}section p{
+    padding-top: 1em;
+    padding-left: 4em;
+    width: 50%;
+    line-height: 120%;
+ }
+ section ul{
+     padding-left: 6em;
+     padding-top: 1em;
+     line-height: 120%;
+ }
+ .list li{
+     display:block;
+     padding-top: 1em;
+ }
