@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1 { font-size: 3em; font-weight: bold; margin-top: 0;}
+
+div#topHeaderRow {
+   font-size: 0.9em;
+}
+#topHeaderRow nav{
+    margin: 0 auto;
+    color:white;
+    background-color: black;
+}
+.price { 
+    color: red;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.similarTitle {  }
+
+.cartText { 
+
+}
+
+footer {
+   margin-top: 1em;
+   background-color: #E7E7E7;
+
+}
+
+.tight-form-group {  }
+
+#copyrightRow { 
+    background-color: #3A3A3A; 
+    color: white;
+    padding-bottom: 0.5em;
+}
+.form-control{
+    margin: 0.3em 0;
+}
+footer .list-unstyled li{
+    margin: 1em 0 1em 1.5em;
+}
+
+footer .row{
+    margin: 0.5em 0;
+}
+.col-lg-12 .col-lg-3{
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    border-radius: 1px;
+    text-align: center;
+}
